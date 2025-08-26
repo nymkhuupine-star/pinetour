@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+  }
+  .inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  .bebas {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+  }
+  .bebas1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250px;
+  }
+  .hanuman{
+    font-family: "Hanuman", serif;
+    font-size: 64px;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .flex {
+    color: black;
+  }
+  .section1 {
+    background-image: url("./HeroImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    .links {
+      gap: 24px;
+    }
+  }
+  .flex-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+  }
+  .flex-center {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 160px;
+    padding: 100px;
+  }
+  .p1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  .p2 {
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+  }
+  .p3 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.775);
+  }
+  .section2{
+    height: 300;
+    background-color: #D8E4E9;
+  }
+  .navigation2{
+    display: flex; justify-content: center; gap: 40px; padding: 65px 500px ; align-items: center; align-self: stretch;
+  }
+  .terhiin{
+    width: 275px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: -moz-linear-gradient(0deg, rgb(30, 22, 38));
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -8px -8px 0 0 rgb(31, 114, 170, 0.46), 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+    text-align: center;
+    color: rgba(253, 253, 254,0.80);
+    text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+    font-family: "Bebas Neue";
+    font-size: 37px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    height: 370px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .amraa{
+    width: 275px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: -moz-linear-gradient(0deg, rgb(30, 22, 38));
+    background-image: url(amraa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -8px -8px 0 0 rgb(31, 114, 170, 0.46), 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+    text-align: center;
+    color: rgba(253, 253, 254,0.80);
+    text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+    font-family: "Bebas Neue";
+    font-size: 37px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    height: 370px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .huwsgul{
+    width: 275px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: -moz-linear-gradient(0deg, rgb(30, 22, 38));
+    background-image: url(huwsgul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -8px -8px 0 0 rgb(31, 114, 170, 0.46), 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+    text-align: center;
+    color: rgba(253, 253, 254,0.80);
+    text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+    font-family: "Bebas Neue";
+    font-size: 37px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    height: 370px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .horgiin{
+    width: 275px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: -moz-linear-gradient(0deg, rgb(30, 22, 38));
+    background-image: url(horgiin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -8px -8px 0 0 rgb(31, 114, 170, 0.46), 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+    text-align: center;
+    color: rgba(253, 253, 254,0.80);
+    text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+    font-family: "Bebas Neue";
+    font-size: 37px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    height: 370px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .section3{
+    height: 700px;
+    background-image: url(Roadmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 120px;
+    padding-right: 807px;
+    padding-bottom: 526px;
+    padding-top: 264px;
+  }
+  .navigation3{
+    color: black;
+    font-size:42px;
+    
+  }
+  .navigation3-1{
+    height: 80px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    background-color: aqua;
+    
+  }
+  .navigation3-3{ 
+   display: flex; 
+   flex-direction: column;
+   margin-top: 5px;
+    
+}
+  .Desti{
+    color: black;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+  }
+  .Pack{
+    color: black;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 500px;
+
+  }
+  .Suhee{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    height: 112px;
+    padding: 30px 30px 30px 0;
+    align-items: center;
+    border-radius: 120px;
+    background: #eee9d9c4;
+    width: 483px;
+    height: 48px;
+    padding-left: 40px;
+    justify-content: space-between;
+  
+  }
+  .suhee-pin{
+    display: flex;
+  }
+  .ulaan{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .pin1{
+    width: 14px;
+    height: 14px;
+    top: 0.5px;
+    padding-top: 10px;
+  }
+  .day10{
+  font-size: 20px;
+  }
+  .sday{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+
+    
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .Amraaah{
+    display: flex;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    display: flex;
+    height: 112px;
+    padding: 30px 30px 30px 0;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 120px;
+    background: #8bb8c1c6; 
+    width: 483px;
+    height: 48px;
+    padding-left: 40px;
+    justify-content: space-between;
+    flex-direction: row;
+    
+  }
+  .amraaah-pin{
+    display: flex;
+  }
+  .pin2{
+    width: 14px;
+    height: 14px;
+    top: 0.5px;
+    padding-top: 10px; 
+  }
+  .bulgan{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .aday{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px; 
+  }
+  .day11{
+    font-size: 20px;
+  }
+
+  .Horog{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    height: 112px;
+    padding: 30px 30px 30px 0;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 120px;
+    background: #aad8d7c9;
+    width: 483px;
+    height: 48px;
+    padding-left: 40px;
+    justify-content: space-between;
+ 
+  }
+  .horog-pin{
+    display: flex;
+  }
+  .pin3{
+    width: 14px;
+    height: 14px;
+    top: 0.5px;
+    padding-top: 10px; 
+  }
+  .arhangai{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .hday{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px; 
+  }
+  .day12{
+    font-size: 20px; 
+  }
+  .Terh{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    height: 112px;
+    padding: 30px 30px 30px 0;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 120px;
+    background: #8bc0bdcd;
+    width: 483px;
+    height: 48px;
+    padding-left: 40px; 
+    justify-content: space-between;
+  }
+  .terh.pin{
+    display: flex;
+  }
+  .pin4{
+    width: 14px;
+    height: 14px;
+    top: 0.5px;
+    padding-top: 10px;
+  }
+  .arkhangai{
+    font-size: 12px;
+    padding-top: 10px; 
+  }
+  .tday{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+  }
+  .day13{
+    font-size: 20px; 
+  }
+
+  .Khuwsgul{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    height: 112px;
+    padding: 30px 30px 30px 0;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 120px;
+    background: #97cce0cf;
+    width: 483px;
+    height: 48px;
+    padding-left: 40px;
+    justify-content: space-between;
+   
+}
+.huwsful-pin{
+    display: flex;
+}
+.pin5{
+    width: 14px;
+    height: 14px;
+    top: 0.5px;
+    padding-top: 10px; 
+}
+.huuwsgul{
+    font-size: 12px;
+    padding-top: 10px; 
+}
+.kday{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;  
+}
+.day14{
+    font-size: 20px; 
+}
+  .frame1{
+left: 1600px;
+top: 200px;
+}
+  .Frame-image{
+    display: none; 
+    position: absolute;
+    width: 245px;
+    height: 254px;
+
+}
+   .Suhee:hover{
+    border: 4px solid white;
+}
+    .Suhee:hover ~ .Frame-image{
+    display: block;
+}
+
+ .frame2{
+  top: 100px;
+  left: 1000px;
+  
+  }
+    .amraa-image{
+      display: none; 
+      position: absolute;
+      width: 245px;
+      height: 254px;
+  
+  }
+     .Amraaah:hover{
+      border: 4px solid white;
+  }
+      .Amraaah:hover ~ .frame2{
+      display: block;
+  }
+
+  .frame3{
+    top: 150px;
+    left: 800px;
+    
+    }
+      .horog-image{
+        display: none; 
+        position: absolute;
+        width: 245px;
+        height: 254px;
+    
+    }
+       .Horog:hover{
+        border: 4px solid white;
+    }
+        .Horog:hover ~ .frame3{
+        display: block;
+    }
+    .frame4{
+      top: 150px;
+      left: 800px;
+      
+      }
+        .terh-image{
+          display: none; 
+          position: absolute;
+          width: 245px;
+          height: 254px;
+      
+      }
+         .Terh:hover{
+          border: 4px solid white;
+      }
+          .Terh:hover ~ .frame4{
+          display: block;
+      }
+      .frame5{
+        top: 50px;
+        left: 1000px;
+        
+        }
+          .huwsgul-image{
+            display: none; 
+            position: absolute;
+            width: 245px;
+            height: 254px;
+        
+        }
+           .Khuwsgul:hover{
+            border: 4px solid white;
+        }
+            .Khuwsgul:hover ~ .frame5{
+            display: block;
+        }
+        .ma1{
+          height: 34px;
+          width: 34px;
+          position: absolute;
+          left: 1700px;
+          top: 300px;
+        }
+        .ma2{
+          height: 34px;
+          width: 34px;
+          position: absolute;
+          top: 100px;
+          left: 1000px;
+          
+        }
+        .ma3{
+          height: 34px;
+          width: 34px;
+          position: absolute;
+          top: 150px;
+          left: 800px;
+        }
+        .ma4{
+          height: 34px;
+          width: 34px;
+          position: absolute;
+          top: 150px;
+          left: 800px;
+          
+        }
+        .ma5{
+          height: 34px;
+          width: 34px;
+          position: absolute;
+          top: 50px;
+          left: 1000px;
+        }
+  .section4{
+    height: 1200px;
+    background-color: #9fc6de ;
+  
+    
+
+  }
+  .pri{
+    font-size: 42px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 30px;
+    
+  }
+  .choose{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 30px;
+  }
+  .navigation4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation4-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+    gap: 20px;
+    
+  }
+  .tsagaan1{
+    width: 384px;
+    height: 527px;
+    background-color: white;
+    border-radius: 30px;
+  }
+  .bund{
+    width: 36px;
+    height: 36px;
+    padding-left:24px ;
+    padding-top: 24px;
+
+  }
+  .tsagaan2{
+    width: 384px;
+    height: 527px;
+    background-color: white;
+    border-radius: 30px;
+  }
+  .tsagaan3{
+    width: 384px;
+    height: 527px;
+    background-color: white;
+    border-radius: 30px;
+  }
+  
+  
+
+        
+
+   
