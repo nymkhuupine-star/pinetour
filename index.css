@@ -608,7 +608,7 @@ top: 200px;
           left: 1000px;
         }
   .section4{
-    height: 1200px;
+    height: 1000px;
     background-color: #9fc6de ;
   
     
@@ -645,35 +645,151 @@ top: 200px;
   }
   .tsagaan1{
     width: 384px;
-    height: 527px;
+    height: 500px;
     background-color: white;
     border-radius: 30px;
   }
+  .ehnii1{
+    display: flex;
+    flex-direction: row;
+
+  
+  }
+  .check-imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   }
   .bund{
     width: 36px;
     height: 36px;
     padding-left:24px ;
     padding-top: 24px;
 
-  }
-  .bud{
-    font-size: 18px;
 
   }
+  .budget{
+    font-size: 18px;
+    padding-left: 24px;
+    padding-top: 30px;
+  }
+  .ehnii2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-top: 30px;
+  }
+  .money{
+    font-size: 40px;
+
+  }
+  .ess{
+    font-size: 16px;
+  }
+  .ehnii3{
+    padding-left: 24px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .check-image{
+
+  }
+  .inclu{
+    font-size:18px ;
+    padding-left:40px ;
+  }
+  .box1{
+    background-color: #A4d1E2;
+    border-radius: 20px;
+  }
+  .ehnii4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 60px;
+  }
+  .select{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+
+
   .tsagaan2{
     width: 384px;
-    height: 527px;
+    height: 500px;
     background-color: white;
     border-radius: 30px;
   }
   .tsagaan3{
     width: 384px;
-    height: 527px;
+    height: 500px;
     background-color: white;
     border-radius: 30px;
   }
-  
-  
+  .ehnii11{
+    display: flex;
+    flex-direction: row;
+  }
+  .ehnii12{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-top: 30px;
+  }
+  .ehnii13{
+    padding-left: 24px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ehnii14{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 60px;
+  }
+  .ehnii21{
+    display: flex;
+    flex-direction: row;
+  }
+  .ehnii22{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-top: 30px;
+  }
+  .ehnii23{
+    padding-left: 24px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ehnii24{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 60px;
+  }
+.jijig{
+  background-color: white;
+
+}
+.jijig1{
+  background-color: white;
+}
+.pad1{
+  display: flex;
+  flex-direction: row;
+  padding-top: 300px;
+}
 
         
 
