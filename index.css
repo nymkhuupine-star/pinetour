@@ -693,9 +693,7 @@ top: 200px;
     flex-direction: column;
     gap: 10px;
   }
-  .check-image{
-
-  }
+  
   .inclu{
     font-size:18px ;
     padding-left:40px ;
@@ -780,17 +778,32 @@ top: 200px;
   }
 .jijig{
   background-color: white;
+   border-radius: 9999px;
+    flex-direction: row;
+  align-items: center;      
+  justify-content: center; 
+   display: flex;
 
 }
 .jijig1{
   background-color: white;
+  border-radius: 9999px;
+  flex-direction: row;
+  align-items: center;      
+  justify-content: center;
+   display: flex; 
 }
 .pad1{
   display: flex;
   flex-direction: row;
-  padding-top: 300px;
+  align-items: center;      
+  justify-content: end;  
+  padding-top: 150px;
+   background-color: #9fc6de ;
+  padding-right: 150px;
+  gap: 10px;
 }
 
         
 
-   
+  
